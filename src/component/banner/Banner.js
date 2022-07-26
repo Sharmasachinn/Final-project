@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Banner.scss";
-import banner from "../../assets/images/banner.png";
+import bannerwide from "../../assets/images/bannerwide.PNG";
 export const Banner = () => {
   return (
       <section className='banner'>
@@ -10,7 +10,7 @@ export const Banner = () => {
           <div className='banner-border'></div>
         </div>
         <div className='banner-img'>
-          <img src={banner} alt='banner'/>
+          <img src={bannerwide} alt='banner'/>
         </div>
         </div>
       </section>

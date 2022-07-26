@@ -14,11 +14,12 @@ const Header = (props) => {
       <header className="header">
         <section className="header-content lg_px-8 column-gap">
           <div className="header-icon">
+            {/* <h4>VENIA</h4> */}
             <img src={barIcon} alt="bar" onClick={handleClicked} />
 
           </div>
          
-          <Link to="aem-react/"><div className="header-logo"></div></Link>
+          <Link to="aem-react/"><div className="header-logo"><h2>VENIA</h2></div></Link>
           <nav className="header-menu">
             <Link to="aem-react/"><div className="header-menu-title">Women</div></Link>
             <Link to="aem-react/"><div className="header-menu-title">Men</div></Link>
@@ -26,7 +27,7 @@ const Header = (props) => {
             <Link to="aem-react/"><div className="header-menu-title">Accessories</div></Link>
           </nav>
           <div className="header-secondary">
-            <div className="right-nav">
+            {/* <div className="right-nav">
             <span className="icon-search"></span>
               <Link to="aem-react/">
               <span className="search">Search</span>
@@ -36,7 +37,7 @@ const Header = (props) => {
             <div className="right-nav">
               <span className="icon-signIn"></span>
               <Link to="aem-react/"><span className="signIn">Sign In</span></Link>
-            </div>
+            </div> */}
             <div className="right-nav">
               <Link to="aem-react/cart">
                 <span className="icon-busket">

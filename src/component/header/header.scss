@@ -2,7 +2,7 @@
 @import "../../scss/mixin";
 .header {
   border-bottom: 1px solid rgba(209, 213, 219);
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #E26A2C;
   justify-content: center;
   grid-auto-columns: minmax(0, 1fr);
   width: 100%;
@@ -11,11 +11,10 @@
   position: sticky;
   display: grid;
   height: auto;
-  background-image: url("../../assets/images/max-width_header.svg");
   overflow: hidden;
   .header-content {
     max-width: 1440px;
-    width: 90%;
+    width: 80%;
     align-content: center;
     align-items: center;
     justify-self: center;
@@ -45,12 +44,16 @@
     }
 
     .header-logo {
+      color: #fff;
+      font-weight: 300px;
+      letter-spacing: 15px;
       position: relative;
       height: 18px;
       width: 102px;
       background-color: transparent;
       display: block;
-      background-image: url(../../assets/images/logo.svg);
+      // background-image: url(../../assets/images/logo.svg);
+      
       background-repeat: no-repeat;
       @include mobile {
         grid-column-start: 3;
@@ -65,7 +68,7 @@
         padding: 0 0.75rem 0 0.75rem;
       }
       a {
-        color: #000;
+        color: #fff;
       }
       @include mobile {
         display: none;
@@ -92,7 +95,7 @@
         align-items: center;
         justify-content: center;
         a {
-          color: #000;
+          color: #fff;
         }
         span {
           height: 20px;
@@ -121,6 +124,7 @@
           }
           &.icon-busket {
             background: url(../../assets/images/busket.svg) no-repeat;
+            
             background-size: contain;
             position: relative;
             background-position: center;
