@@ -9,7 +9,6 @@ export const Banner = () => {
           <h3>Women’s <b/> Outerwear</h3>
           <div className='banner-border'></div>
         </div>
-      
         <div className='banner-img'>
           <img src={banner} alt='banner'/>
         </div>

@@ -46,7 +46,6 @@ const [isSideActive,setIsSideActive]=useState(0);
   const close=(item)=>{
     setIsSideActive(item);
   }
-
   return (
     <div className='product-cart-detail'>
       <div className='product-container'>
