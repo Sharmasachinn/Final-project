@@ -48,7 +48,7 @@
         }
       }
       .btn-payment {
-        min-height: 2rem;
+        min-height: 1rem;
         min-width: 8rem;
         outline: 2px solid transparent;
         outline-offset: 2px;
@@ -59,9 +59,8 @@
         text-align: center;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        background-color: rgb(41, 84, 255);
-        border: 2px solid rgb(41, 84, 255);
-        border-radius: 9999px;
+        background-color: #E26A2C;
+        border: 2px solid #E26A2C;
         align-self: center;
         justify-content: center;
         align-items: center;
@@ -94,7 +93,7 @@
     }
     .cart-border {
       width: 102px;
-      background-color: #1f39ff;
+      background-color: #E26A2C;
       height: 8px;
       align-items: center;
       text-align: center;
@@ -281,7 +280,7 @@
         border: 1px solid;
         line-height: 36px;
         width: 90%;
-        background: rebeccapurple;
+        background: #E26A2C;
         color: #fff;
         @include mobile {
           width: 100%;

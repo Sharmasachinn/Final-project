@@ -6,7 +6,7 @@ export const Banner = () => {
       <section className='banner'>
         <div className='banner-content'>
         <div className='banner-text'>
-          <h3>Women’s <b/> Outerwear</h3>
+          <h3>Men’s <b/> Outerwear</h3>
           <div className='banner-border'></div>
         </div>
         <div className='banner-img'>
