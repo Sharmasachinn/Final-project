@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Navigation } from './component/navigation/Navigation';
 import { useState } from 'react';
 import  Filter from './component/filter/Filter';
+import Dashboard from './component/Dashboard/dashboard';
 function App() {
   const [isMenu, setIsMenu] = useState(false)
   const [isFilter, setIsFilter] = useState(false)
@@ -21,7 +22,8 @@ function App() {
       <main>
     
         <Routes>
-          <Route exact path='aem-react/' element={<ProductList handleFilter={handleFilter}/>}></Route>
+          <Route exact path='aem-react/' element={<ProductList handleFilter={handleFilter}/>       
+}></Route>
           <Route path='aem-react/detail/:id' element={<ProductDetail />}></Route>
           <Route path='aem-react/cart' element={<ProductCart />}></Route>
         </Routes>
